@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Weekend styling for FullCalendar */
+.fc .fc-day-sat,
+.fc .fc-day-sun {
+  background: rgba(220, 38, 38, 0.06); /* merah tipis */
+}
+
+.fc .fc-col-header-cell.fc-day-sat,
+.fc .fc-col-header-cell.fc-day-sun {
+  background: rgba(220, 38, 38, 0.10);
+}
+
+.fc .fc-col-header-cell.fc-day-sat .fc-col-header-cell-cushion,
+.fc .fc-col-header-cell.fc-day-sun .fc-col-header-cell-cushion {
+  color: #dc2626; /* merah */
+  font-weight: 600;
+}
+
+/* angka tanggal weekend (pojok kanan atas sel) */
+.fc .fc-daygrid-day.fc-day-sat .fc-daygrid-day-number,
+.fc .fc-daygrid-day.fc-day-sun .fc-daygrid-day-number {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+/* ===== FullCalendar Dark Mode ===== */
+.dark .fc {
+  --fc-page-bg-color: transparent;
+  --fc-border-color: rgba(148, 163, 184, 0.25); /* slate-400-ish */
+  --fc-neutral-bg-color: rgba(148, 163, 184, 0.10);
+  --fc-neutral-text-color: rgba(226, 232, 240, 0.9);
+  --fc-today-bg-color: rgba(59, 130, 246, 0.10);
+  color: rgba(226, 232, 240, 0.92);
+}
+
+.dark .fc .fc-toolbar-title {
+  color: rgba(226, 232, 240, 0.95);
+}
+
+.dark .fc .fc-button {
+  background: rgba(30, 41, 59, 0.9); /* slate-800 */
+  border-color: rgba(148, 163, 184, 0.25);
+  color: rgba(226, 232, 240, 0.95);
+}
+
+.dark .fc .fc-button:hover {
+  background: rgba(51, 65, 85, 0.9); /* slate-700 */
+}
+
+.dark .fc .fc-button-primary:not(:disabled).fc-button-active,
+.dark .fc .fc-button-primary:not(:disabled):active {
+  background: rgba(59, 130, 246, 0.75);
+  border-color: rgba(59, 130, 246, 0.75);
+}
+
+.dark .fc .fc-col-header-cell-cushion {
+  color: rgba(226, 232, 240, 0.9);
+}
+
+.dark .fc .fc-daygrid-day-number {
+  color: rgba(226, 232, 240, 0.85);
+}
+
+/* Weekend merah versi dark (pakai weekend CSS kamu, tapi biar tetap kelihatan) */
+.dark .fc .fc-day-sat,
+.dark .fc .fc-day-sun {
+  background: rgba(220, 38, 38, 0.10);
+}
+
+.dark .fc .fc-col-header-cell.fc-day-sat,
+.dark .fc .fc-col-header-cell.fc-day-sun {
+  background: rgba(220, 38, 38, 0.14);
+}
+
+/* ===== Breeze NavLink Dark Mode ===== */
+.dark a[href].inline-flex.items-center.px-1.pt-1 {
+  color: rgba(226, 232, 240, 0.85);
+}
+
+.dark a[href].inline-flex.items-center.px-1.pt-1:hover {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.dark a[aria-current="page"].inline-flex.items-center.px-1.pt-1 {
+  color: rgba(255, 255, 255, 0.95);
+  border-color: rgba(59, 130, 246, 0.85);
+}
+
+/* ===== Dropdown Dark Mode (Breeze) ===== */
+.dark .origin-top-right {
+  background: rgba(17, 24, 39, 0.98) !important; /* gray-900 */
+  border-color: rgba(55, 65, 81, 1) !important;  /* gray-700 */
+}
+
+.dark .origin-top-right a {
+  color: rgba(226, 232, 240, 0.9) !important;
+}
+
+.dark .origin-top-right a:hover {
+  background: rgba(31, 41, 55, 1) !important; /* gray-800 */
+  color: rgba(255, 255, 255, 0.95) !important;
+}
