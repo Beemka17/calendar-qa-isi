@@ -70,6 +70,11 @@ window.calendarPage = function () {
       mode: 'create', // create|edit
     },
 
+    cutiListModal: {
+      open: false,
+      list: []
+    },
+
     groupModal: {
       open: false,
     },
@@ -93,6 +98,7 @@ window.calendarPage = function () {
       location: '',
       pic: '',
       description: '',
+      leave_type: '',
     },
 
     errors: {},
@@ -156,6 +162,7 @@ window.calendarPage = function () {
           } catch (e) {
             failureCallback(e);
             this.toast('Error', 'Gagal load events.');
+            console.log(e);
           }
         },
 
@@ -172,6 +179,19 @@ window.calendarPage = function () {
         },
 
         eventClick: (info) => {
+          const ep = info.event.extendedProps;
+
+          // 🔥 kalau aggregate CUTI
+          if (ep.type === 'cuti_aggregate') {
+            this.openCutiList(ep.list);
+            return;
+          }
+          /*
+          if (ep.type === 'cuti_aggregate') {
+            alert(ep.names.join('\n'));
+            return;
+          }*/
+
           this.openEdit(info.event);
         },
 
@@ -195,6 +215,7 @@ window.calendarPage = function () {
           }
         },
 
+        /*
         eventDidMount: (arg) => {
           // tooltip simple
           const ep = arg.event.extendedProps || {};
@@ -206,10 +227,71 @@ window.calendarPage = function () {
           ].filter(Boolean).join('\n');
 
           arg.el.setAttribute('title', tip);
-        },
+        },*/
+
+        eventDidMount: (arg) => {
+          const ep = arg.event.extendedProps || {};
+
+          // 🔥 HANYA untuk CUTI aggregate
+          if (ep.type === 'cuti_aggregate') {
+
+            let content = `<div style="padding:6px;">`;
+            content += `<strong>${arg.event.title}</strong><br/>`;
+
+            // ✅ AMAN (tidak akan error)
+            const list = ep.list || [];
+
+            list.slice(0, 5).forEach(item => {
+              content += `• ${item.name || 'Tanpa Nama'}<br/>`;
+            });
+
+            if (list.length > 5) {
+              content += `<em>+${list.length - 5} lainnya</em>`;
+            }
+
+            content += `</div>`;
+
+            window.tippy(arg.el, {
+              content: content,
+              allowHTML: true,
+              theme: 'light-border',
+              placement: 'top',
+            });
+          }
+
+          // 🔥 OPTIONAL: tooltip untuk event biasa (biar tidak kosong)
+          else {
+            const tip = [
+              arg.event.title,
+              ep.event_group_name ? `Group: ${ep.event_group_name}` : '',
+              ep.pic ? `PIC: ${ep.pic}` : '',
+              ep.location ? `Loc: ${ep.location}` : '',
+            ].filter(Boolean).join('<br/>');
+
+            window.tippy(arg.el, {
+              content: tip,
+              allowHTML: true,
+              theme: 'light',
+            });
+          }
+        }
+
       });
 
+      console.log('CALENDAR JS LOADED');
+
       this.calendar.render();
+
+      window.calendar = this.calendar;
+
+      window.Echo.channel('calendar')
+        .listen('.calendar.changed', (e) => {
+          console.log('Realtime masuk:', e);
+
+          if (window.calendar) {
+            window.calendar.refetchEvents();
+          }
+        });
     },
 
     refetch() {
@@ -395,6 +477,7 @@ window.calendarPage = function () {
         location: '',
         pic: '',
         description: '',
+        leave_type: '',
       };
       this.errors = {};
     },
@@ -412,6 +495,11 @@ window.calendarPage = function () {
       if (first) this.form.event_group_id = first.id;
     },
 
+    openCutiList(list) {
+      this.cutiListModal.list = list;
+      this.cutiListModal.open = true;
+    },
+
     openEdit(event) {
       this.resetForm();
       this.modal.mode = 'edit';
@@ -423,6 +511,7 @@ window.calendarPage = function () {
       this.form.title = event.title;
       this.form.event_group_id = ep.event_group_id ?? '';
       this.form.start_at = toDatetimeLocal(event.start);
+      this.form.leave_type = event.extendedProps.leave_type || '';
 
       // end can be null in FC, but our DB requires end_at
       const end = event.end ? event.end : new Date(event.start.getTime() + 60 * 60 * 1000);
@@ -431,6 +520,26 @@ window.calendarPage = function () {
       this.form.location = ep.location ?? '';
       this.form.pic = ep.pic ?? '';
       this.form.description = ep.description ?? '';
+    },
+
+    async editFromList(id) {
+      try {
+        const data = await api(`/api/events/${id}`);
+
+        this.cutiListModal.open = false;
+
+        this.openEdit({
+          id: data.id,
+          title: data.title,
+          start: new Date(data.start_at), // 🔥 FIX
+          end: new Date(data.end_at),     // 🔥 FIX
+          extendedProps: data,
+        });
+
+      } catch (e) {
+        this.toast('Error', 'Gagal load data');
+        console.log(e);
+      }
     },
 
     closeModal() {
@@ -464,6 +573,7 @@ window.calendarPage = function () {
           location: this.form.location || null,
           pic: this.form.pic || null,
           description: this.form.description || null,
+          leave_type: this.form.leave_type,
         };
 
         if (this.modal.mode === 'create') {

@@ -21,6 +21,7 @@ class Event extends Model
         'description',
         'created_by',
         'updated_by',
+        'leave_type',
     ];
 
     protected $casts = [

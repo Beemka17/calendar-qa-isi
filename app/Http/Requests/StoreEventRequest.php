@@ -27,6 +27,7 @@ class StoreEventRequest extends FormRequest
             'location' => ['nullable', 'string', 'max:255'],
             'pic' => ['nullable', 'string', 'max:255'],
             'description' => ['nullable', 'string'],
+            'leave_type' => ['nullable', 'in:full,half'],
         ];
     }
 }

@@ -50,6 +50,77 @@ class EventController extends Controller
 
         $events = $query->get();
 
+        $result = [];
+        $cutiGrouped = [];
+
+        foreach ($events as $e) {
+
+        // 🔥 CEK apakah CUTI
+        if ($e->group?->name === 'Cuti') {
+
+        $date = $e->start_at->format('Y-m-d');
+        $type = $e->leave_type ?? 'full';
+
+        $cutiGrouped[$date][$type][] = $e;
+
+        } else {
+
+        $color = $e->group?->color_hex ?? '#1d4ed8';
+
+        $result[] = [
+            'id' => $e->id,
+            'title' => $e->title,
+            'start' => $e->start_at->toIso8601String(),
+            'end' => $e->end_at->toIso8601String(),
+            'backgroundColor' => $color,
+            'borderColor' => $color,
+            'extendedProps' => [
+                'event_group_id' => $e->event_group_id,
+                'event_group_name' => $e->group?->name,
+                'location' => $e->location,
+                'pic' => $e->pic,
+                'description' => $e->description,
+                'leave_type' => $e->leave_type,
+                ],
+            ];
+            }
+        }
+
+        foreach ($cutiGrouped as $date => $types) {
+
+        foreach (['full', 'half'] as $type) {
+
+            if (!isset($types[$type])) continue;
+
+            $items = collect($types[$type]);
+            $names = $items->pluck('pic')->values();
+            $list = $items->map(function ($e) {
+        return [
+            'id' => $e->id,
+            'name' => $e->pic ?: 'Tanpa Nama',
+        ];
+        })->values();
+            $count = $names->count();
+
+            $result[] = [
+                'title' => ($type === 'full' ? '🟡 CUTI FULL' : '🟠 CUTI HALF') . " ($count)",
+                'start' => $date,
+                'allDay' => true,
+                'backgroundColor' => $type === 'full' ? '#facc15' : '#fb923c',
+                'borderColor' => $type === 'full' ? '#facc15' : '#fb923c',
+
+                'extendedProps' => [
+                    'type' => 'cuti_aggregate',
+                    'leave_type' => $type,
+                    'list' => $list,
+                    //'names' => $names,
+                    ]
+                ];
+            }
+        }
+        return $result;
+
+        /*
         // FullCalendar JSON format
         return $events->map(function (Event $e) {
             $color = $e->group?->color_hex ?? '#1d4ed8';
@@ -71,8 +142,24 @@ class EventController extends Controller
                 ],
             ];
         });
+        */
     }
 
+    public function show(Event $event)
+    {
+    return response()->json([
+        'id' => $event->id,
+        'title' => $event->title,
+        'event_group_id' => $event->event_group_id,
+        'start_at' => $event->start_at->toIso8601String(),
+        'end_at' => $event->end_at->toIso8601String(),
+        'location' => $event->location,
+        'pic' => $event->pic,
+        'description' => $event->description,
+        'leave_type' => $event->leave_type,
+    ]);
+    }
+    
     public function store(StoreEventRequest $request)
     {
         $data = $request->validated();
@@ -80,10 +167,13 @@ class EventController extends Controller
         $event = Event::create([
             ...$data,
             'created_by' => $request->user()->id,
+            'leave_type' => $request->leave_type,
             'updated_by' => null,
         ]);
 
         $event->load('group:id,name,color_hex');
+
+        event(new \App\Events\CalendarChanged('created', $event->id));
 
         return response()->json($this->toFcEvent($event), 201);
     }
@@ -96,10 +186,16 @@ class EventController extends Controller
 
         $event->update([
             ...$data,
+            'leave_type' => $request->leave_type,
             'updated_by' => $request->user()->id,
         ]);
 
         $event->load('group:id,name,color_hex');
+
+        event(new \App\Events\CalendarChanged('updated', $event->id));
+
+        event(new \App\Events\CalendarChanged('moved', $event->id));
+        event(new \App\Events\CalendarChanged('resized', $event->id));
 
         return $this->toFcEvent($event);
     }
@@ -109,6 +205,8 @@ class EventController extends Controller
         $this->authorize('delete', $event);
 
         $event->delete();
+
+        event(new \App\Events\CalendarChanged('deleted', $event->id));
 
         return response()->noContent();
     }

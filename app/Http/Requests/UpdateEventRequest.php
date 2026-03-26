@@ -24,7 +24,7 @@ class UpdateEventRequest extends FormRequest
             ],
             'start_at' => ['sometimes', 'required', 'date'],
             'end_at' => ['sometimes', 'required', 'date', 'after_or_equal:start_at'],
-
+            'leave_type' => ['nullable', 'in:full,half'],
             'location' => ['sometimes', 'nullable', 'string', 'max:255'],
             'pic' => ['sometimes', 'nullable', 'string', 'max:255'],
             'description' => ['sometimes', 'nullable', 'string'],

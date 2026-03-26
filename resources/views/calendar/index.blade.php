@@ -93,6 +93,17 @@
                         </template>
                     </div>
 
+                    <div x-show="form.event_group_id == CUTI_ID">
+                        <label class="text-sm">Leave Type</label>
+
+                        <select x-model="form.leave_type"
+                            class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900">
+                            <option value="">-- pilih --</option>
+                            <option value="full">Full Day</option>
+                            <option value="half">Half Day</option>
+                        </select>
+                    </div>
+
                     <div>
                         <label class="text-sm">PIC</label>
                         <input type="text" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
@@ -157,6 +168,32 @@
                         </button>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Modal Cuti -->
+        <div x-show="cutiListModal.open" class="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+
+            <div class="relative w-full max-w-xl rounded-lg bg-white dark:bg-slate-900 border p-4">
+
+                <h2 class="text-lg font-bold mb-3">Daftar Cuti</h2>
+
+                <template x-for="item in cutiListModal.list" :key="item.id">
+                    <div class="flex justify-between items-center mb-2">
+                        <span x-text="item.name"></span>
+
+                        <button class="text-blue-600 text-sm" @click="editFromList(item.id)">
+                            Edit
+                        </button>
+                    </div>
+                </template>
+
+                <button
+                    class="mt-4 w-full rounded border px-3 py-2 bg-slate-900 text-white dark:bg-white dark:text-slate-900"
+                    @click="cutiListModal.open = false">
+                    Close
+                </button>
+
             </div>
         </div>
 
