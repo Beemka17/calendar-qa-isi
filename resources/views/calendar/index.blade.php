@@ -69,8 +69,8 @@
                     <button type="button" class="rounded border px-2 py-1" @click="closeModal()">✕</button>
                 </div>
 
-                <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <div class="md:col-span-2">
+                <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3">
+                    <div class="md:col-span-3">
                         <label class="text-sm">Title *</label>
                         <input type="text" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
                             x-model="form.title" />
@@ -79,6 +79,7 @@
                         </template>
                     </div>
 
+                    <!-- ROW: Event Group + PIC + Team -->
                     <div>
                         <label class="text-sm">Event Group *</label>
                         <select class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
@@ -88,9 +89,55 @@
                                 <option :value="g.id" x-text="g.name"></option>
                             </template>
                         </select>
-                        <template x-if="errors.event_group_id">
-                            <div class="text-sm text-red-600 mt-1" x-text="errors.event_group_id"></div>
-                        </template>
+                    </div>
+
+                    <div>
+                        <label class="text-sm">PIC</label>
+                        <input type="text" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
+                            x-model="form.pic" />
+                    </div>
+
+                    <!-- TEAM MULTISELECT (STYLE SELECT) -->
+                    <div class="relative" x-data="{ open: false }">
+                        <label class="text-sm">Team</label>
+
+                        <div @click="open = !open"
+                            class="w-full rounded border border-gray-500 px-3 py-2 bg-white dark:bg-slate-900 cursor-pointer flex justify-between items-center h-[42px] focus-within:ring-2 focus-within:ring-blue-500">
+
+                            <span class="text-base truncate leading-normal">
+                                <template x-if="form.team_ids.length === 0">
+                                    <span class="text-gray-400">-- Select Team --</span>
+                                </template>
+
+                                <template x-if="form.team_ids.length > 0">
+                                    <span x-text="getSelectedTeamNames().join(', ')"></span>
+                                </template>
+                            </span>
+
+                            <span class="text-[10px] text-gray-500 ml-2 pointer-events-none">
+                                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M19 9l-7 7-7-7"></path>
+                                </svg>
+                            </span>
+                        </div>
+
+                        <div x-show="open" @click.outside="open = false"
+                            x-transition:enter="transition ease-out duration-100"
+                            x-transition:enter-start="opacity-0 transform scale-95"
+                            x-transition:enter-end="opacity-100 transform scale-100"
+                            class="absolute z-50 mt-1 w-full rounded-md border border-gray-200 bg-white dark:bg-slate-900 shadow-lg max-h-60 overflow-auto">
+
+                            <template x-for="team in teams" :key="team.id">
+                                <label
+                                    class="flex items-center gap-2 px-3 py-2.5 cursor-pointer hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors">
+                                    <input type="checkbox" :value="Number(team.id)" @change="toggleTeam(team.id)"
+                                        :checked="form.team_ids.includes(Number(team.id))"
+                                        class="rounded border-gray-300 text-blue-600 focus:ring-blue-500">
+                                    <span class="text-sm text-gray-700 dark:text-gray-200" x-text="team.name"></span>
+                                </label>
+                            </template>
+                        </div>
                     </div>
 
                     <div x-show="form.event_group_id == CUTI_ID">
@@ -104,34 +151,29 @@
                         </select>
                     </div>
 
-                    <div>
-                        <label class="text-sm">PIC</label>
-                        <input type="text" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
-                            x-model="form.pic" />
-                        <template x-if="errors.pic">
-                            <div class="text-sm text-red-600 mt-1" x-text="errors.pic"></div>
-                        </template>
+                    <div class="md:col-span-3 grid grid-cols-1 md:grid-cols-2 gap-3">
+                        <div>
+                            <label class="text-sm">Start *</label>
+                            <input type="datetime-local"
+                                class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
+                                x-model="form.start_at" />
+                            <template x-if="errors.start_at">
+                                <div class="text-sm text-red-600 mt-1" x-text="errors.start_at"></div>
+                            </template>
+                        </div>
+
+                        <div>
+                            <label class="text-sm">End *</label>
+                            <input type="datetime-local"
+                                class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
+                                x-model="form.end_at" />
+                            <template x-if="errors.end_at">
+                                <div class="text-sm text-red-600 mt-1" x-text="errors.end_at"></div>
+                            </template>
+                        </div>
                     </div>
 
-                    <div>
-                        <label class="text-sm">Start *</label>
-                        <input type="datetime-local" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
-                            x-model="form.start_at" />
-                        <template x-if="errors.start_at">
-                            <div class="text-sm text-red-600 mt-1" x-text="errors.start_at"></div>
-                        </template>
-                    </div>
-
-                    <div>
-                        <label class="text-sm">End *</label>
-                        <input type="datetime-local" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
-                            x-model="form.end_at" />
-                        <template x-if="errors.end_at">
-                            <div class="text-sm text-red-600 mt-1" x-text="errors.end_at"></div>
-                        </template>
-                    </div>
-
-                    <div class="md:col-span-2">
+                    <div class="md:col-span-3">
                         <label class="text-sm">Location</label>
                         <input type="text" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
                             x-model="form.location" />
@@ -140,7 +182,15 @@
                         </template>
                     </div>
 
-                    <div class="md:col-span-2">
+                    <div class="md:col-span-3">
+                        <label class="text-sm">Attendance</label>
+
+                        <textarea x-model="form.attendance" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
+                            placeholder="PIC atau Dept. yang akan hadir">
+                        </textarea>
+                    </div>
+
+                    <div class="md:col-span-3">
                         <label class="text-sm">Description</label>
                         <textarea rows="3" class="w-full rounded border px-3 py-2 bg-white dark:bg-slate-900"
                             x-model="form.description"></textarea>

@@ -22,6 +22,8 @@ class Event extends Model
         'created_by',
         'updated_by',
         'leave_type',
+        'attendance',
+
     ];
 
     protected $casts = [
@@ -43,4 +45,14 @@ class Event extends Model
     {
         return $this->belongsTo(User::class, 'updated_by');
     }
+
+    public function teams()
+{
+    return $this->belongsToMany(
+        \App\Models\Team::class,
+        'event_team',      // nama tabel pivot
+        'event_id',        // FK ke events
+        'team_id'          // FK ke teams
+    );
+}
 }

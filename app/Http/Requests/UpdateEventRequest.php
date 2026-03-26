@@ -28,6 +28,9 @@ class UpdateEventRequest extends FormRequest
             'location' => ['sometimes', 'nullable', 'string', 'max:255'],
             'pic' => ['sometimes', 'nullable', 'string', 'max:255'],
             'description' => ['sometimes', 'nullable', 'string'],
+            'team_ids' => ['nullable', 'array'],
+            'team_ids.*' => ['exists:teams,id'],
+            'attendance' => ['nullable', 'string'],
         ];
     }
 }

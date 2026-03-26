@@ -15,6 +15,7 @@ class StoreEventRequest extends FormRequest
 
     public function rules(): array
     {
+        
         return [
             'title' => ['required', 'string', 'max:255'],
             'event_group_id' => [
@@ -28,6 +29,9 @@ class StoreEventRequest extends FormRequest
             'pic' => ['nullable', 'string', 'max:255'],
             'description' => ['nullable', 'string'],
             'leave_type' => ['nullable', 'in:full,half'],
+            'team_ids' => ['nullable', 'array'],
+            'team_ids.*' => ['exists:teams,id'],
+            'attendance' => ['nullable', 'string'],
         ];
     }
 }

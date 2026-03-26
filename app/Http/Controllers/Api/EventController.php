@@ -24,7 +24,7 @@ class EventController extends Controller
         $location = $request->query('location');
 
         $query = Event::query()
-            ->with(['group:id,name,color_hex'])
+            ->with(['group:id,name,color_hex', 'teams:id,name'])
             ->when($start && $end, function ($q2) use ($start, $end) {
                 $startAt = Carbon::parse($start);
                 $endAt   = Carbon::parse($end);
@@ -48,7 +48,8 @@ class EventController extends Controller
             ->when($location, fn($q2) => $q2->where('location', 'like', "%{$location}%"))
             ->orderBy('start_at');
 
-        $events = $query->get();
+        //$events = $query->get();
+        $events = $query->with('teams:id,name')->get();
 
         $result = [];
         $cutiGrouped = [];
@@ -81,6 +82,13 @@ class EventController extends Controller
                 'pic' => $e->pic,
                 'description' => $e->description,
                 'leave_type' => $e->leave_type,
+                'teams' => $e->teams->pluck('name'),
+                'team_ids' => $e->teams->pluck('id'),
+                'attendance' => $e->attendance,
+                'teams' => $e->teams->map(fn($t) => [
+                    'id' => $t->id,
+                    'name' => $t->name,
+                ]),
                 ],
             ];
             }
@@ -162,20 +170,35 @@ class EventController extends Controller
     
     public function store(StoreEventRequest $request)
     {
+    
+        try {
+    // code
         $data = $request->validated();
+
+        unset($data['team_ids']);
 
         $event = Event::create([
             ...$data,
+            'attendance' => $request->attendance,
             'created_by' => $request->user()->id,
             'leave_type' => $request->leave_type,
             'updated_by' => null,
         ]);
+
+        // 🔥 sync team
+        $teamIds = $request->input('team_ids', []);
+
+        $event->teams()->sync($teamIds);
 
         $event->load('group:id,name,color_hex');
 
         event(new \App\Events\CalendarChanged('created', $event->id));
 
         return response()->json($this->toFcEvent($event), 201);
+    } catch (\Throwable $e) {
+    dd($e->getMessage());
+    }
+        
     }
 
     public function update(UpdateEventRequest $request, Event $event)
@@ -189,6 +212,8 @@ class EventController extends Controller
             'leave_type' => $request->leave_type,
             'updated_by' => $request->user()->id,
         ]);
+
+        $event->teams()->sync($data['team_ids'] ?? []);
 
         $event->load('group:id,name,color_hex');
 
@@ -229,6 +254,12 @@ class EventController extends Controller
                 'pic' => $e->pic,
                 'description' => $e->description,
                 'created_by' => $e->created_by,
+                'teams' => $e->teams->pluck('name'),
+                'attendance' => $e->attendance,
+                'teams' => $e->teams->map(fn($t) => [
+                    'id' => $t->id,
+                    'name' => $t->name,
+                ]),
             ],
         ];
     }

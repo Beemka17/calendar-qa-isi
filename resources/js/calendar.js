@@ -54,7 +54,7 @@ function fromDatetimeLocal(value) {
 window.calendarPage = function () {
   return {
     calendar: null,
-
+    teams: [],
     loadingGroups: false,
     groups: [],
     activeGroupIds: [],
@@ -99,6 +99,8 @@ window.calendarPage = function () {
       pic: '',
       description: '',
       leave_type: '',
+      team_ids: [],
+      attendance: '',
     },
 
     errors: {},
@@ -110,6 +112,13 @@ window.calendarPage = function () {
     async init() {
       // load groups dulu
       await this.loadGroups();
+      //await this.loadTeams();
+      try {
+        await this.loadTeams();
+      } catch (e) {
+        console.warn('Teams API belum siap');
+        console.log(e);
+      }
 
       // init FullCalendar
       const el = document.getElementById('calendar');
@@ -231,6 +240,7 @@ window.calendarPage = function () {
 
         eventDidMount: (arg) => {
           const ep = arg.event.extendedProps || {};
+          const teamNames = (ep.teams || []).map(t => t.name).join(', ');
 
           // 🔥 HANYA untuk CUTI aggregate
           if (ep.type === 'cuti_aggregate') {
@@ -264,6 +274,8 @@ window.calendarPage = function () {
             const tip = [
               arg.event.title,
               ep.event_group_name ? `Group: ${ep.event_group_name}` : '',
+              ep.attendance ? `Attendance: ${ep.attendance}` : '',
+              teamNames ? `Team: ${teamNames}` : '',
               ep.pic ? `PIC: ${ep.pic}` : '',
               ep.location ? `Loc: ${ep.location}` : '',
             ].filter(Boolean).join('<br/>');
@@ -331,6 +343,34 @@ window.calendarPage = function () {
     clearGroups() {
       this.activeGroupIds = [];
       this.refetch();
+    },
+
+    async loadTeams() {
+      try {
+        const data = await api('/api/teams'); // 🔥 WAJIB ADA
+
+        this.teams = data;
+
+      } catch (e) {
+        console.error('Gagal load teams:', e);
+        this.teams = [];
+      }
+    },
+
+    toggleTeam(id) {
+      id = Number(id); // 🔥 WAJIB
+
+      if (this.form.team_ids.includes(id)) {
+        this.form.team_ids = this.form.team_ids.filter(x => x !== id);
+      } else {
+        this.form.team_ids.push(id);
+      }
+    },
+
+    getSelectedTeamNames() {
+      return this.teams
+        .filter(t => this.form.team_ids.includes(Number(t.id)))
+        .map(t => t.name);
     },
 
     /* ================================
@@ -478,6 +518,8 @@ window.calendarPage = function () {
         pic: '',
         description: '',
         leave_type: '',
+        team_ids: [],
+        attendance: '',
       };
       this.errors = {};
     },
@@ -512,6 +554,8 @@ window.calendarPage = function () {
       this.form.event_group_id = ep.event_group_id ?? '';
       this.form.start_at = toDatetimeLocal(event.start);
       this.form.leave_type = event.extendedProps.leave_type || '';
+      this.form.team_ids = (event.extendedProps.team_ids || []).map(Number);
+      this.form.attendance = event.extendedProps.attendance || '';
 
       // end can be null in FC, but our DB requires end_at
       const end = event.end ? event.end : new Date(event.start.getTime() + 60 * 60 * 1000);
@@ -574,6 +618,8 @@ window.calendarPage = function () {
           pic: this.form.pic || null,
           description: this.form.description || null,
           leave_type: this.form.leave_type,
+          attendance: this.form.attendance || null,
+          team_ids: this.form.team_ids || [],
         };
 
         if (this.modal.mode === 'create') {
@@ -590,6 +636,7 @@ window.calendarPage = function () {
           this.toast('Updated', 'Event berhasil diupdate.');
         }
 
+        console.log('FORM SUBMIT:', this.form);
         this.closeModal();
         this.refetch();
       } catch (e) {

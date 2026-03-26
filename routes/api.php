@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Route;  
+use Illuminate\Support\Facades\Route; 
+use App\Http\Controllers\Api\TeamController; 
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::get('/events/{event}', [\App\Http\Controllers\Api\EventController::class, 'show']);
+Route::get('/teams', [\App\Http\Controllers\Api\TeamController::class, 'index']);
