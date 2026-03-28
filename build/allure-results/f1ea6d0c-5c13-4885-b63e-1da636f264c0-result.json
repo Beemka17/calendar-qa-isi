@@ -1,0 +1,43 @@
+{
+    "uuid": "f1ea6d0c-5c13-4885-b63e-1da636f264c0",
+    "name": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_link_can_be_requested",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774681136642,
+    "stop": 1774681136874,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "2e007e99566434d467df7a353fc67364",
+    "testCaseId": "b6adc25d9a17c58327794e831610ccf2",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_link_can_be_requested",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordResetTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_reset_password_link_can_be_requested"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

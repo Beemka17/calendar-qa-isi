@@ -1,0 +1,43 @@
+{
+    "uuid": "c7a0732c-800a-4c66-a810-4a317680e8c4",
+    "name": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774679262808,
+    "stop": 1774679262823,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Moriah Renner, rocio.maggio@example.com, ?, $2y$04$GUtxQqiHGE7W1XqxEGRvl.Mba0\/tHFIMbjQyE4S7HeJn6eCi9kGyq, y0WVhXO6i5, 2026-03-28 06:27:42, 2026-03-28 06:27:42))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "6c277ba4c3a4a830fa5bdfc1dddad86c",
+    "testCaseId": "6457dfba90b5e45f7ce8bb1b36f03b02",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\EmailVerificationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_email_is_not_verified_with_invalid_hash"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

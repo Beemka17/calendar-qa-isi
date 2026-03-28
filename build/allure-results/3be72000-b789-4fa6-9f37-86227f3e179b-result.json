@@ -1,0 +1,43 @@
+{
+    "uuid": "3be72000-b789-4fa6-9f37-86227f3e179b",
+    "name": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774681361070,
+    "stop": 1774681361302,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "42a4d043b4987cddcd48432f5c25ad80",
+    "testCaseId": "cf8b08d6f4ce65dc92094637a34a071c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordConfirmationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_is_not_confirmed_with_invalid_password"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -16,6 +16,7 @@ class DatabaseSeeder extends Seeder
         DefaultUsersSeeder::class,
         EventGroupSeeder::class,
         EventSeeder::class,
+        TeamSeeder::class,
     ]); 
         // \App\Models\User::factory(10)->create();
 

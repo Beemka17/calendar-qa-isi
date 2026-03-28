@@ -1,0 +1,43 @@
+{
+    "uuid": "cf4508f4-9ebe-4b16-ad62-b33ebc2b03f4",
+    "name": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_can_be_verified",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774679262679,
+    "stop": 1774679262693,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Joelle Crona, rterry@example.net, ?, $2y$04$GUtxQqiHGE7W1XqxEGRvl.Mba0\/tHFIMbjQyE4S7HeJn6eCi9kGyq, AJ3slMty9a, 2026-03-28 06:27:42, 2026-03-28 06:27:42))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "4b9d58933a05f8e83b2e6227cfb4919a",
+    "testCaseId": "7f4a803adc73d21d338d9b1f9d8c047c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_can_be_verified",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\EmailVerificationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_email_can_be_verified"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

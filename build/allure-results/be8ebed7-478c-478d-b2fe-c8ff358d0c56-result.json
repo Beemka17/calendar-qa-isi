@@ -1,0 +1,43 @@
+{
+    "uuid": "be8ebed7-478c-478d-b2fe-c8ff358d0c56",
+    "name": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_password_can_be_updated",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774679264013,
+    "stop": 1774679264031,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Maximillian Hand, kane52@example.net, 2026-03-28 06:27:44, $2y$04$GUtxQqiHGE7W1XqxEGRvl.Mba0\/tHFIMbjQyE4S7HeJn6eCi9kGyq, 2csduNEAbQ, 2026-03-28 06:27:44, 2026-03-28 06:27:44))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "9fd78e29f3982cb3d9e7f9983adf5cd8",
+    "testCaseId": "c0db283042ca14e679deea4134abb1bb",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_password_can_be_updated",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordUpdateTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_can_be_updated"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

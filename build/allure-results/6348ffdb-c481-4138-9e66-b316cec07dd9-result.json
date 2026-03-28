@@ -1,0 +1,43 @@
+{
+    "uuid": "6348ffdb-c481-4138-9e66-b316cec07dd9",
+    "name": "Tests\\Feature\\ProfileTest::test_profile_information_can_be_updated",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774678306392,
+    "stop": 1774678306410,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Consuelo Heaney, reymundo.wiegand@example.org, 2026-03-28 06:11:46, $2y$04$WCNW2Bvv\/nM206k7vnrYnOP1HgMOOnvKQxwsG\/AJJC7X9f74SnXci, mb7GaCft8g, 2026-03-28 06:11:46, 2026-03-28 06:11:46))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "f6ff0b6171395fcdbc0b89dd01537a48",
+    "testCaseId": "3b5275b87b7296763dfb000621fe15c6",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_profile_information_can_be_updated",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_profile_information_can_be_updated"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "7b9b0add-47c3-4e34-90ab-90d57e4989ff",
+    "name": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774679263279,
+    "stop": 1774679263295,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Amya Crist, anibal.romaguera@example.com, 2026-03-28 06:27:43, $2y$04$GUtxQqiHGE7W1XqxEGRvl.Mba0\/tHFIMbjQyE4S7HeJn6eCi9kGyq, Py5h6a9lxT, 2026-03-28 06:27:43, 2026-03-28 06:27:43))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "42a4d043b4987cddcd48432f5c25ad80",
+    "testCaseId": "cf8b08d6f4ce65dc92094637a34a071c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordConfirmationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_is_not_confirmed_with_invalid_password"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

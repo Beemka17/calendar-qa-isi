@@ -1,0 +1,43 @@
+{
+    "uuid": "c2aa0a29-553f-4207-81e4-b952e6d753ed",
+    "name": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_logout",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774680531785,
+    "stop": 1774680531797,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Edgardo Quigley Sr., bjaskolski@example.org, 2026-03-28 06:48:51, $2y$04$PEv6egXfu2NwwF4gJ5S95OGIB6vN0CCmVYp05SxpjOQUz8eYslNwS, qeLuizvT13, 2026-03-28 06:48:51, 2026-03-28 06:48:51))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "d220bfd3f3a51b90f663dabc49b42796",
+    "testCaseId": "853132e219cc9ceb178959217113c745",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_logout",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\AuthenticationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_users_can_logout"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

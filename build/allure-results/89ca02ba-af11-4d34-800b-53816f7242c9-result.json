@@ -1,0 +1,43 @@
+{
+    "uuid": "89ca02ba-af11-4d34-800b-53816f7242c9",
+    "name": "Tests\\Feature\\ProfileTest::test_user_can_delete_their_account",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774678306630,
+    "stop": 1774678306643,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Myrtice Casper, xkuvalis@example.com, 2026-03-28 06:11:46, $2y$04$WCNW2Bvv\/nM206k7vnrYnOP1HgMOOnvKQxwsG\/AJJC7X9f74SnXci, iaoIk7jGGp, 2026-03-28 06:11:46, 2026-03-28 06:11:46))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "0caf17cbaef5e79956c6a356be210e07",
+    "testCaseId": "56a51da93d6714d5f435a901600dce8c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_user_can_delete_their_account",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_user_can_delete_their_account"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

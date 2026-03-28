@@ -1,0 +1,43 @@
+{
+    "uuid": "be61ae53-074b-41c9-82ce-6960d1c6da89",
+    "name": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_screen_can_be_rendered",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774678305205,
+    "stop": 1774678305218,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Lupe Swift Jr., jacobi.dangelo@example.com, 2026-03-28 06:11:45, $2y$04$WCNW2Bvv\/nM206k7vnrYnOP1HgMOOnvKQxwsG\/AJJC7X9f74SnXci, OtHWkf2AV3, 2026-03-28 06:11:45, 2026-03-28 06:11:45))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "c59c0c5b4703df4b10c3f767a113ecc4",
+    "testCaseId": "3e2b9c72de69b0cab6a767f5f9d9bf5d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_screen_can_be_rendered",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordResetTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_reset_password_screen_can_be_rendered"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="D:\laragon\www\quality-calendar\phpunit.xml" tests="25" assertions="6" errors="19" failures="2" skipped="0" time="2.496793">
+    <testsuite name="Unit" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.005685">
+      <testsuite name="Tests\Unit\ExampleTest" file="D:\laragon\www\quality-calendar\tests\Unit\ExampleTest.php" tests="1" assertions="1" errors="0" failures="0" skipped="0" time="0.005685">
+        <testcase name="test_that_true_is_true" file="D:\laragon\www\quality-calendar\tests\Unit\ExampleTest.php" line="12" class="Tests\Unit\ExampleTest" classname="Tests.Unit.ExampleTest" assertions="1" time="0.005685"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="Feature" tests="24" assertions="5" errors="19" failures="2" skipped="0" time="2.491109">
+      <testsuite name="Tests\Feature\Auth\AuthenticationTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php" tests="4" assertions="1" errors="3" failures="0" skipped="0" time="1.627678">
+        <testcase name="test_login_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php" line="14" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="1" time="1.461742"/>
+        <testcase name="test_users_can_authenticate_using_the_login_screen" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php" line="21" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.091316">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_authenticate_using_the_login_screen&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Dr. Adeline Dicki, casandra.reinger@example.com, 2026-03-28 04:46:20, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, q4FxX2KJiv, 2026-03-28 04:46:20, 2026-03-28 04:46:20))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php:23</error>
+        </testcase>
+        <testcase name="test_users_can_not_authenticate_with_invalid_password" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php" line="34" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.041851">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Mabel Satterfield, brakus.una@example.net, 2026-03-28 04:46:20, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, qiECWLcHQP, 2026-03-28 04:46:20, 2026-03-28 04:46:20))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php:36</error>
+        </testcase>
+        <testcase name="test_users_can_logout" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php" line="46" class="Tests\Feature\Auth\AuthenticationTest" classname="Tests.Feature.Auth.AuthenticationTest" assertions="0" time="0.032770">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\AuthenticationTest::test_users_can_logout&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Mr. Florian Mayert, koby09@example.net, 2026-03-28 04:46:20, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, lG55txM4Pl, 2026-03-28 04:46:20, 2026-03-28 04:46:20))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\AuthenticationTest.php:48</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\EmailVerificationTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.146460">
+        <testcase name="test_email_verification_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php" line="17" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.051292">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_verification_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Tiara Moore, bernie.walker@example.net, ?, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, nL8pxkCpSV, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:297
+D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php:19</error>
+        </testcase>
+        <testcase name="test_email_can_be_verified" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php" line="28" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.050274">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_can_be_verified&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Dr. Abdullah Tromp III, ckuhic@example.com, ?, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, RH8t3gHLnK, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:297
+D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php:30</error>
+        </testcase>
+        <testcase name="test_email_is_not_verified_with_invalid_hash" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php" line="49" class="Tests\Feature\Auth\EmailVerificationTest" classname="Tests.Feature.Auth.EmailVerificationTest" assertions="0" time="0.044895">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Brooke Zboncak, otilia65@example.net, ?, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, TLqFKJJhi4, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:297
+D:\laragon\www\quality-calendar\tests\Feature\Auth\EmailVerificationTest.php:51</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordConfirmationTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php" tests="3" assertions="0" errors="3" failures="0" skipped="0" time="0.114218">
+        <testcase name="test_confirm_password_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php" line="13" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.040638">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_confirm_password_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Tianna Koss DVM, arjun21@example.com, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, Xgv7jS4bZl, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php:15</error>
+        </testcase>
+        <testcase name="test_password_can_be_confirmed" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php" line="22" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.041912">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_can_be_confirmed&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Alayna Koelpin, dion24@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, prfdAfMO06, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php:24</error>
+        </testcase>
+        <testcase name="test_password_is_not_confirmed_with_invalid_password" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php" line="34" class="Tests\Feature\Auth\PasswordConfirmationTest" classname="Tests.Feature.Auth.PasswordConfirmationTest" assertions="0" time="0.031669">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordConfirmationTest::test_password_is_not_confirmed_with_invalid_password&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Prof. Halle Kris, guy29@example.com, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, Yx2b7AdW6k, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordConfirmationTest.php:36</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordResetTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php" tests="4" assertions="1" errors="3" failures="0" skipped="0" time="0.183541">
+        <testcase name="test_reset_password_link_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php" line="15" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="1" time="0.046250"/>
+        <testcase name="test_reset_password_link_can_be_requested" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php" line="22" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.044990">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_link_can_be_requested&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Pascale Quitzon I, rcorwin@example.com, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, c94D5Rs5Qa, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php:26</error>
+        </testcase>
+        <testcase name="test_reset_password_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php" line="33" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.043552">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_reset_password_screen_can_be_rendered&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Miss Billie Turner, steve61@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, Nc8BJ0lrJr, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php:37</error>
+        </testcase>
+        <testcase name="test_password_can_be_reset_with_valid_token" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php" line="50" class="Tests\Feature\Auth\PasswordResetTest" classname="Tests.Feature.Auth.PasswordResetTest" assertions="0" time="0.048750">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordResetTest::test_password_can_be_reset_with_valid_token&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Hattie Kutch, xzavier.cummerata@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, 08Z4mfDFF9, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordResetTest.php:54</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\PasswordUpdateTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordUpdateTest.php" tests="2" assertions="0" errors="2" failures="0" skipped="0" time="0.111060">
+        <testcase name="test_password_can_be_updated" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordUpdateTest.php" line="14" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.056317">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordUpdateTest::test_password_can_be_updated&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Davon Kerluke V, langworth.candido@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, gwkof3SfjD, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordUpdateTest.php:16</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_update_password" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordUpdateTest.php" line="34" class="Tests\Feature\Auth\PasswordUpdateTest" classname="Tests.Feature.Auth.PasswordUpdateTest" assertions="0" time="0.054742">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\Auth\PasswordUpdateTest::test_correct_password_must_be_provided_to_update_password&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Tristian Hackett, jackson13@example.com, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, wLniZBrJxl, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\Auth\PasswordUpdateTest.php:36</error>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\Auth\RegistrationTest" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\RegistrationTest.php" tests="2" assertions="2" errors="0" failures="1" skipped="0" time="0.093106">
+        <testcase name="test_registration_screen_can_be_rendered" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\RegistrationTest.php" line="13" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="1" time="0.051366"/>
+        <testcase name="test_new_users_can_register" file="D:\laragon\www\quality-calendar\tests\Feature\Auth\RegistrationTest.php" line="20" class="Tests\Feature\Auth\RegistrationTest" classname="Tests.Feature.Auth.RegistrationTest" assertions="1" time="0.041739">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\Auth\RegistrationTest::test_new_users_can_register&#13;
+The user is not authenticated
+Failed asserting that false is true.
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Foundation\Testing\Concerns\InteractsWithAuthentication.php:49
+D:\laragon\www\quality-calendar\tests\Feature\Auth\RegistrationTest.php:29</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ExampleTest" file="D:\laragon\www\quality-calendar\tests\Feature\ExampleTest.php" tests="1" assertions="1" errors="0" failures="1" skipped="0" time="0.016770">
+        <testcase name="test_the_application_returns_a_successful_response" file="D:\laragon\www\quality-calendar\tests\Feature\ExampleTest.php" line="13" class="Tests\Feature\ExampleTest" classname="Tests.Feature.ExampleTest" assertions="1" time="0.016770">
+          <failure type="PHPUnit\Framework\ExpectationFailedException">Tests\Feature\ExampleTest::test_the_application_returns_a_successful_response&#13;
+Expected response status code [200] but received 302.
+Failed asserting that 302 is identical to 200.
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Testing\TestResponseAssert.php:45
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Testing\TestResponse.php:160
+D:\laragon\www\quality-calendar\tests\Feature\ExampleTest.php:17</failure>
+        </testcase>
+      </testsuite>
+      <testsuite name="Tests\Feature\ProfileTest" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" tests="5" assertions="0" errors="5" failures="0" skipped="0" time="0.198276">
+        <testcase name="test_profile_page_is_displayed" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" line="13" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.028149">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_profile_page_is_displayed&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Prof. Enos Braun, mccullough.austin@example.com, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, 1ziTyIyc0W, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php:15</error>
+        </testcase>
+        <testcase name="test_profile_information_can_be_updated" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" line="24" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.032926">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_profile_information_can_be_updated&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Jovan Parisian, noberbrunner@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, KbU5q5rGUr, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php:26</error>
+        </testcase>
+        <testcase name="test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" line="46" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.047995">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Ova Tremblay, mebert@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, uvvGNsPvxQ, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php:48</error>
+        </testcase>
+        <testcase name="test_user_can_delete_their_account" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" line="64" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.041139">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_user_can_delete_their_account&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Prudence Stehr PhD, hollis.eichmann@example.org, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, Ozbei4KFZ7, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php:66</error>
+        </testcase>
+        <testcase name="test_correct_password_must_be_provided_to_delete_account" file="D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php" line="82" class="Tests\Feature\ProfileTest" classname="Tests.Feature.ProfileTest" assertions="0" time="0.048067">
+          <error type="Illuminate\Database\QueryException">Tests\Feature\ProfileTest::test_correct_password_must_be_provided_to_delete_account&#13;
+Illuminate\Database\QueryException: SQLSTATE[HY000]: General error: 1364 Field 'username' doesn't have a default value (Connection: mysql, SQL: insert into `users` (`name`, `email`, `email_verified_at`, `password`, `remember_token`, `updated_at`, `created_at`) values (Ashtyn D'Amore, wintheiser.kaden@example.net, 2026-03-28 04:46:21, $2y$04$9/Vg9bvt.u4.iRCZXkJEcOUSq0.ycuC4eWGfJtX.Yf/tFqBLmX7OO, 2nLczpwSxI, 2026-03-28 04:46:21, 2026-03-28 04:46:21))
+&#13;
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:825
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Connection.php:779
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\MySqlConnection.php:42
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Processors\MySqlProcessor.php:35
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Query\Builder.php:3766
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Builder.php:2120
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1359
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1324
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Model.php:1163
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:352
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Collections\Traits\EnumeratesValues.php:261
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:347
+D:\laragon\www\quality-calendar\vendor\laravel\framework\src\Illuminate\Database\Eloquent\Factories\Factory.php:303
+D:\laragon\www\quality-calendar\tests\Feature\ProfileTest.php:84</error>
+        </testcase>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>
