@@ -1,0 +1,43 @@
+{
+    "uuid": "63442a40-553c-4afd-b2f1-5c8de7cc1ea7",
+    "name": "Tests\\Feature\\ProfileTest::test_user_can_delete_their_account",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751548688,
+    "stop": 1774751548731,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "0caf17cbaef5e79956c6a356be210e07",
+    "testCaseId": "56a51da93d6714d5f435a901600dce8c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_user_can_delete_their_account",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_user_can_delete_their_account"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

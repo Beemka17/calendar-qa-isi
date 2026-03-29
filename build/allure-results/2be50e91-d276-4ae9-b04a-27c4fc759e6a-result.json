@@ -1,0 +1,43 @@
+{
+    "uuid": "2be50e91-d276-4ae9-b04a-27c4fc759e6a",
+    "name": "Tests\\Feature\\Api\\EventTest::user_cannot_delete_other_users_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774698523286,
+    "stop": 1774698523320,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "277aefc3b8587785d5a3541c12430bb9",
+    "testCaseId": "c268143cfc5ca53ccebb7fe0e5407152",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventTest::user_cannot_delete_other_users_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "user_cannot_delete_other_users_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

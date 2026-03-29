@@ -1,0 +1,43 @@
+{
+    "uuid": "de3c8099-c9d0-4a8f-b86a-02825ef808b7",
+    "name": "Tests\\Feature\\Api\\EventGroupTest::admin_can_create_event_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774696636816,
+    "stop": 1774696636857,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Expected response status code [201] but received 403.\nFailed asserting that 403 is identical to 201.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "ee72e180bd8e2b289cc82e6289346edd",
+    "testCaseId": "88d0f9e0a3769f418fd44a02b6788c67",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupTest::admin_can_create_event_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "admin_can_create_event_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "86c4eeb5-83d0-4277-adf6-de10fb46fe27",
+    "name": "Tests\\Feature\\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774696094149,
+    "stop": 1774696094199,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "305f6eac1faadd375dcb67be278fce7a",
+    "testCaseId": "93f39ea3220be6aab97d2e40fabcb0e7",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_email_verification_status_is_unchanged_when_the_email_address_is_unchanged"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

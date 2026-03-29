@@ -1,0 +1,43 @@
+{
+    "uuid": "96c5cbd9-b4a6-4c31-9172-9aaff575d625",
+    "name": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_can_be_confirmed",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751439044,
+    "stop": 1774751439078,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "1f811db887b7520b09968833ecf60848",
+    "testCaseId": "b444751d6a30118d5b3ba2d0fc810064",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordConfirmationTest::test_password_can_be_confirmed",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordConfirmationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_can_be_confirmed"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

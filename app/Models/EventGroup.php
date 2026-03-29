@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class EventGroup extends Model
 {
+    use HasFactory;
+
     protected $fillable = [
         'name', 'color_hex', 'is_active',
     ];
@@ -15,7 +17,7 @@ class EventGroup extends Model
         'is_active' => 'boolean',
     ];
 
-    public function events(): HasMany
+    public function events(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(Event::class);
     }

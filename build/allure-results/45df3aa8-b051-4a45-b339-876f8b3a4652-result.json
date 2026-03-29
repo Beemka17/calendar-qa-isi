@@ -1,0 +1,43 @@
+{
+    "uuid": "45df3aa8-b051-4a45-b339-876f8b3a4652",
+    "name": "Tests\\Feature\\ProfileTest::test_profile_information_can_be_updated",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751548341,
+    "stop": 1774751548409,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "f6ff0b6171395fcdbc0b89dd01537a48",
+    "testCaseId": "3b5275b87b7296763dfb000621fe15c6",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_profile_information_can_be_updated",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_profile_information_can_be_updated"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

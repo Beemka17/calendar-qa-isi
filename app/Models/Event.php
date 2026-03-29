@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Event extends Model
 {
     use SoftDeletes;
+    use HasFactory;
 
     protected $fillable = [
         'title',

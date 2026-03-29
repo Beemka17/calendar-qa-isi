@@ -1,0 +1,43 @@
+{
+    "uuid": "92bce5d3-443b-4652-ab9d-7a01384537aa",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_cannot_delete_event_group_in_use",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774698524856,
+    "stop": 1774698524916,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Expected response status code [422] but received 403.\nFailed asserting that 403 is identical to 422.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "a9735d0639b46492022b97d24fd010e9",
+    "testCaseId": "7b06aeeb3bb65e3cccb5496aad4c8301",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_cannot_delete_event_group_in_use",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_cannot_delete_event_group_in_use"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

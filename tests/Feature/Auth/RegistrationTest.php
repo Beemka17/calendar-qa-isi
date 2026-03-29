@@ -30,4 +30,19 @@ class RegistrationTest extends TestCase
         $this->assertAuthenticated();
         $response->assertRedirect(RouteServiceProvider::HOME);
     }
+
+    public function new_users_must_have_a_unique_username()
+{
+    User::factory()->create(['username' => 'galih_qe']);
+
+    $response = $this->post('/register', [
+        'name' => 'New User',
+        'username' => 'galih_qe', // Duplikat
+        'email' => 'new@example.com',
+        'password' => 'password',
+        'password_confirmation' => 'password',
+    ]);
+
+    $response->assertSessionHasErrors('username');
+}
 }

@@ -1,0 +1,43 @@
+{
+    "uuid": "961deb19-d6b5-44e3-a115-cdd8a281d261",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_cannot_delete_event_group_in_use",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751437390,
+    "stop": 1774751437447,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "a9735d0639b46492022b97d24fd010e9",
+    "testCaseId": "7b06aeeb3bb65e3cccb5496aad4c8301",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_cannot_delete_event_group_in_use",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_cannot_delete_event_group_in_use"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

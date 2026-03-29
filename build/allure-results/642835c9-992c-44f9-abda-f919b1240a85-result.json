@@ -1,0 +1,43 @@
+{
+    "uuid": "642835c9-992c-44f9-abda-f919b1240a85",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_event_with_null_leave_type_defaults_to_full",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751126460,
+    "stop": 1774751126533,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Unable to find JSON fragment: \r\n\r\n[{\"title\":\"🟡 CUTI FULL (100)\"}]\r\n\r\nwithin\r\n\r\n[[{\"allDay\":true,\"backgroundColor\":\"#facc15\",\"borderColor\":\"#facc15\",\"extendedProps\":{\"leave_type\":\"full\",\"list\":[{\"id\":105,\"name\":\"Delpha Ryan\"}],\"type\":\"cuti_aggregate\"},\"start\":\"2026-03-28\",\"title\":\"🟡 CUTI FULL (1)\"}]].\nFailed asserting that false is true.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "44952ecb307017ab34d63c5c66558f9a",
+    "testCaseId": "168976ee046f9ac577c4499c69175907",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_event_with_null_leave_type_defaults_to_full",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_with_null_leave_type_defaults_to_full"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

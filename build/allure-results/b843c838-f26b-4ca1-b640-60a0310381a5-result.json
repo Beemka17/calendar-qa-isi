@@ -1,0 +1,43 @@
+{
+    "uuid": "b843c838-f26b-4ca1-b640-60a0310381a5",
+    "name": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_can_be_verified",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774687753971,
+    "stop": 1774687754034,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "4b9d58933a05f8e83b2e6227cfb4919a",
+    "testCaseId": "7f4a803adc73d21d338d9b1f9d8c047c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_can_be_verified",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\EmailVerificationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_email_can_be_verified"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

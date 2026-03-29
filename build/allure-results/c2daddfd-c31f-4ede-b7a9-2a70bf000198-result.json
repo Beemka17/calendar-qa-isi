@@ -1,0 +1,43 @@
+{
+    "uuid": "c2daddfd-c31f-4ede-b7a9-2a70bf000198",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_event_with_null_leave_type_defaults_to_full",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774751437237,
+    "stop": 1774751437295,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "44952ecb307017ab34d63c5c66558f9a",
+    "testCaseId": "168976ee046f9ac577c4499c69175907",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_event_with_null_leave_type_defaults_to_full",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_with_null_leave_type_defaults_to_full"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

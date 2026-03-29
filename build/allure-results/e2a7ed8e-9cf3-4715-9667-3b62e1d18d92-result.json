@@ -1,0 +1,43 @@
+{
+    "uuid": "e2a7ed8e-9cf3-4715-9667-3b62e1d18d92",
+    "name": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774698526160,
+    "stop": 1774698526190,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "6c277ba4c3a4a830fa5bdfc1dddad86c",
+    "testCaseId": "6457dfba90b5e45f7ce8bb1b36f03b02",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\EmailVerificationTest::test_email_is_not_verified_with_invalid_hash",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\EmailVerificationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_email_is_not_verified_with_invalid_hash"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

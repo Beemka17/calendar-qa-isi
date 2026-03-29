@@ -1,0 +1,43 @@
+{
+    "uuid": "fff33ae5-1333-4d40-8316-03cd6d307e8d",
+    "name": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_logout",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774696637978,
+    "stop": 1774696638024,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "d220bfd3f3a51b90f663dabc49b42796",
+    "testCaseId": "853132e219cc9ceb178959217113c745",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_logout",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\AuthenticationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_users_can_logout"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

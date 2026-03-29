@@ -1,0 +1,43 @@
+{
+    "uuid": "ea020c6c-e0aa-4fc7-8fd7-5a2a231b7791",
+    "name": "Tests\\Feature\\Api\\EventTest::cuti_is_aggregated_correctly_in_index",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774696089902,
+    "stop": 1774696089923,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "SQLSTATE[HY000]: General error: 1364 Field 'title' doesn't have a default value (Connection: mysql, SQL: insert into `events` (`event_group_id`, `leave_type`, `start_at`, `end_at`, `pic`, `updated_at`, `created_at`) values (3, full, 2026-03-28 08:00:00, 2026-03-28 17:00:00, User A, 2026-03-28 11:08:09, 2026-03-28 11:08:09))",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e5d24de910baa3ad7df778c9971a6f8a",
+    "testCaseId": "868373a1f9354740951db1744e7eca41",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventTest::cuti_is_aggregated_correctly_in_index",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "cuti_is_aggregated_correctly_in_index"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "2a1ef4ca-8467-42a5-b90c-d14452c51861",
+    "name": "Tests\\Feature\\Api\\EventTest::user_can_create_event_and_triggers_broadcast",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774698522879,
+    "stop": 1774698522976,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "5fc645fc325b7b284023f64f9bf11687",
+    "testCaseId": "80f81ff42ccacdd19aa76b53ada02267",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventTest::user_can_create_event_and_triggers_broadcast",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "user_can_create_event_and_triggers_broadcast"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

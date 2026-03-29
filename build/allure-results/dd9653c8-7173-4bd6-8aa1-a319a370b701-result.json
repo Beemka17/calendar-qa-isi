@@ -1,0 +1,43 @@
+{
+    "uuid": "dd9653c8-7173-4bd6-8aa1-a319a370b701",
+    "name": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774697221408,
+    "stop": 1774697221432,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "b102fe13f9f8e863feafb0467854b52e",
+    "testCaseId": "1e2406d7ee222403573e31c6e38ba060",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_not_authenticate_with_invalid_password",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\AuthenticationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_users_can_not_authenticate_with_invalid_password"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

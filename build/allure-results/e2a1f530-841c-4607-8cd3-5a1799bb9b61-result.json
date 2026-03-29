@@ -1,0 +1,43 @@
+{
+    "uuid": "e2a1f530-841c-4607-8cd3-5a1799bb9b61",
+    "name": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_authenticate_using_the_login_screen",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774696090324,
+    "stop": 1774696090369,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "be84212b293a2e33d8f808fb344ad224",
+    "testCaseId": "f0f4f6e7e235539ee23c2eb5a9fc007c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\AuthenticationTest::test_users_can_authenticate_using_the_login_screen",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\AuthenticationTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_users_can_authenticate_using_the_login_screen"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

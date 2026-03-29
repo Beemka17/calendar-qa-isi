@@ -1,0 +1,43 @@
+{
+    "uuid": "731f4307-a15a-48d3-b2dc-3b2b86df5481",
+    "name": "Tests\\Feature\\Api\\EventTest::cuti_is_aggregated_correctly_in_index",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774697300897,
+    "stop": 1774697300957,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e5d24de910baa3ad7df778c9971a6f8a",
+    "testCaseId": "868373a1f9354740951db1744e7eca41",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventTest::cuti_is_aggregated_correctly_in_index",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "cuti_is_aggregated_correctly_in_index"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}
