@@ -10,6 +10,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Team extends Model
 {
     //
+    use HasFactory;
     protected $fillable = ['name'];
 
     public function events()

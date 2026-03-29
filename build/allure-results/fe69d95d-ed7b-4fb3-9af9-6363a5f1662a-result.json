@@ -1,0 +1,43 @@
+{
+    "uuid": "fe69d95d-ed7b-4fb3-9af9-6363a5f1662a",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_regular_user_cannot_create_event_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753158358,
+    "stop": 1774753158395,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "ebb9f26971886a118ae1199de55f3f08",
+    "testCaseId": "d089578dcf5c782f7bad35301729a56e",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_regular_user_cannot_create_event_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_regular_user_cannot_create_event_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

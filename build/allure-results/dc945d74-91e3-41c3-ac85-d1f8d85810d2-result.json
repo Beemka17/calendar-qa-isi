@@ -1,0 +1,43 @@
+{
+    "uuid": "dc945d74-91e3-41c3-ac85-d1f8d85810d2",
+    "name": "Tests\\Feature\\Auth\\LoginRequestTest::test_failed_login_triggers_rate_limiter_hit",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756535091,
+    "stop": 1774756535326,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "bb46543ef605c5a7dbba6771964d2b64",
+    "testCaseId": "5e26c3e50671c6a1c1ac641a0a70e5d1",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\LoginRequestTest::test_failed_login_triggers_rate_limiter_hit",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\LoginRequestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_failed_login_triggers_rate_limiter_hit"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

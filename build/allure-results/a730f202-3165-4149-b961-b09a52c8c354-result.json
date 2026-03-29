@@ -1,0 +1,43 @@
+{
+    "uuid": "a730f202-3165-4149-b961-b09a52c8c354",
+    "name": "Tests\\Feature\\Api\\EventGroupControllerTest::test_admin_can_update_event_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753154800,
+    "stop": 1774753154842,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Expected response status code [200] but received 405.\nFailed asserting that 405 is identical to 200.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e8d45b23e92087d57754834d5e5d2918",
+    "testCaseId": "b3f6533388568094a1fcdec0892f3eb5",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupControllerTest::test_admin_can_update_event_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_admin_can_update_event_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

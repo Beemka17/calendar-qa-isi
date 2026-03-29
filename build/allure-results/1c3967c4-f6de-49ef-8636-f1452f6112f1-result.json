@@ -1,0 +1,43 @@
+{
+    "uuid": "1c3967c4-f6de-49ef-8636-f1452f6112f1",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_store_validates_required_title",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753844640,
+    "stop": 1774753844665,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "a4c97c1aff895799438005e124c9025c",
+    "testCaseId": "6005d000cd6383a33e921bf908f6983b",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_store_validates_required_title",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_store_validates_required_title"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

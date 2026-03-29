@@ -1,0 +1,43 @@
+{
+    "uuid": "08a35ff8-9acc-4f01-997c-c4281d740fd5",
+    "name": "Tests\\Feature\\Auth\\PasswordResetTest::test_password_can_be_reset_with_valid_token",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753849347,
+    "stop": 1774753849619,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "420b79866e162d24bf701eb763034ea2",
+    "testCaseId": "382aa5d2c2a145703cdf01a8e64b888b",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordResetTest::test_password_can_be_reset_with_valid_token",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordResetTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_can_be_reset_with_valid_token"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

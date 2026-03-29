@@ -1,0 +1,43 @@
+{
+    "uuid": "9bdc2c6b-b15c-45a1-a81e-b4e89ebafb91",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_store_event_syncs_teams",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755325584,
+    "stop": 1774755325643,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e050cdc097c7fd563165d09503c1d745",
+    "testCaseId": "c0b7d092d6f3199d5802833093978a06",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_store_event_syncs_teams",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_store_event_syncs_teams"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

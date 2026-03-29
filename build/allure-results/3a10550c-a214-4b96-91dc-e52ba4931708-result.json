@@ -1,0 +1,43 @@
+{
+    "uuid": "3a10550c-a214-4b96-91dc-e52ba4931708",
+    "name": "Tests\\Unit\\Models\\EventModelTest::test_event_can_have_multiple_teams",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755323363,
+    "stop": 1774755323417,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "020d4fc0e907f09ccccd2df8c7691f4b",
+    "testCaseId": "925ac8462fbcbf0f2548360f3a2026b7",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Models\\EventModelTest::test_event_can_have_multiple_teams",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Models\\EventModelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_can_have_multiple_teams"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

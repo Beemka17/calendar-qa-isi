@@ -1,0 +1,43 @@
+{
+    "uuid": "a06c3eda-92cf-4e87-bc0a-190da31fe61e",
+    "name": "Tests\\Feature\\Api\\EventGroupTest::non_admin_cannot_create_event_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753108626,
+    "stop": 1774753108661,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "470fd2503950583d8f61b57b8b3d2208",
+    "testCaseId": "91e4a54c8dcf8088d7dede4a05baed3a",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupTest::non_admin_cannot_create_event_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "non_admin_cannot_create_event_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

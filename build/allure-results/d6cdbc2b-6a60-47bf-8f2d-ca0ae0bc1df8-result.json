@@ -1,0 +1,43 @@
+{
+    "uuid": "d6cdbc2b-6a60-47bf-8f2d-ca0ae0bc1df8",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_update_event_fails_when_end_before_start",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774757180469,
+    "stop": 1774757180498,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "009f66fb90cff2c87a44b8717d923b04",
+    "testCaseId": "18484a5330e7f4b7e80185c9f52d8816",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_update_event_fails_when_end_before_start",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_update_event_fails_when_end_before_start"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

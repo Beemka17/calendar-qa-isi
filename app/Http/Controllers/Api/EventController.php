@@ -196,7 +196,7 @@ class EventController extends Controller
 
         return response()->json($this->toFcEvent($event), 201);
     } catch (\Throwable $e) {
-    dd($e->getMessage());
+    
     }
         
     }

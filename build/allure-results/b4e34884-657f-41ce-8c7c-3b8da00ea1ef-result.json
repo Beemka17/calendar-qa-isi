@@ -1,0 +1,43 @@
+{
+    "uuid": "b4e34884-657f-41ce-8c7c-3b8da00ea1ef",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_admin_can_delete_any_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756683912,
+    "stop": 1774756683943,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "ad9d9c82fd84868c497878a3f1351da2",
+    "testCaseId": "6427329db95b68e74f32f96e8b8ddc83",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_admin_can_delete_any_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_admin_can_delete_any_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

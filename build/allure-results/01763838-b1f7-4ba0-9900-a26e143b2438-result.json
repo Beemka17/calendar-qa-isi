@@ -1,0 +1,43 @@
+{
+    "uuid": "01763838-b1f7-4ba0-9900-a26e143b2438",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_active_user_cannot_update_others_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753163311,
+    "stop": 1774753163346,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e900993ac12f4af410b46c56d8604291",
+    "testCaseId": "c333b8ec4571e53fa7c68d224529ce11",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_active_user_cannot_update_others_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_active_user_cannot_update_others_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

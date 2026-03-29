@@ -1,0 +1,43 @@
+{
+    "uuid": "36d794a8-ff94-418e-97a6-df331c03a8cc",
+    "name": "Tests\\Feature\\Api\\EventFeedControllerTest::test_event_feed_returns_all_events",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755326139,
+    "stop": 1774755326188,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Expected response status code [200] but received 404.\nFailed asserting that 404 is identical to 200.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "ca866d3745ad53b671a56f30a5f28df6",
+    "testCaseId": "c0a6c931368f6f6b6a84bbed9eacb092",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventFeedControllerTest::test_event_feed_returns_all_events",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventFeedControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_feed_returns_all_events"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "c9434a46-f3a0-4a23-a243-fd4e500ea26a",
+    "name": "Tests\\Unit\\Models\\EventModelTest::test_event_belongs_to_creator",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756527983,
+    "stop": 1774756528005,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "862a839fd21c9f4a3357650f41a70062",
+    "testCaseId": "fb54e905091cb9dbd6d2ad6c93316641",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Models\\EventModelTest::test_event_belongs_to_creator",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Models\\EventModelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_belongs_to_creator"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

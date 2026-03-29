@@ -1,0 +1,43 @@
+{
+    "uuid": "7f44534a-63ed-4552-b537-864e663533f9",
+    "name": "Tests\\Unit\\Models\\EventModelTest::test_event_is_soft_deleted",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753105630,
+    "stop": 1774753105664,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "f297e55b5288da4acbb7b24031232141",
+    "testCaseId": "ad0205f47e1a4d27e58471eccb8c34cc",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Models\\EventModelTest::test_event_is_soft_deleted",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Models\\EventModelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_is_soft_deleted"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

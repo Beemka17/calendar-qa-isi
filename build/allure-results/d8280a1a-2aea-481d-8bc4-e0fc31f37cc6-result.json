@@ -1,0 +1,43 @@
+{
+    "uuid": "d8280a1a-2aea-481d-8bc4-e0fc31f37cc6",
+    "name": "Tests\\Unit\\ExampleTest::test_that_true_is_true",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756526834,
+    "stop": 1774756526836,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "73a17a50c965b8b39282a75bc0dfc66f",
+    "testCaseId": "47004f2d47bee71498516c5757bdd19b",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\ExampleTest::test_that_true_is_true",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\ExampleTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_that_true_is_true"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

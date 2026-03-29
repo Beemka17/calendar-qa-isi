@@ -1,0 +1,43 @@
+{
+    "uuid": "4e39cb9f-8fb9-4b0b-af38-7809c0e5db66",
+    "name": "Tests\\Unit\\Events\\CalendarChangedTest::test_broadcast_event_name_is_correct",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753103542,
+    "stop": 1774753103545,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "41dd99df8692d19f539c56ded645e5d6",
+    "testCaseId": "72cff4369791a54a7fa25a2bf2d90d11",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Events\\CalendarChangedTest::test_broadcast_event_name_is_correct",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Events\\CalendarChangedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_broadcast_event_name_is_correct"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

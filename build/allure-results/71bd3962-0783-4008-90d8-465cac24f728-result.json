@@ -1,0 +1,43 @@
+{
+    "uuid": "71bd3962-0783-4008-90d8-465cac24f728",
+    "name": "Tests\\Feature\\Api\\EventGroupControllerTest::test_anyone_authenticated_can_list_event_groups",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753107761,
+    "stop": 1774753107805,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "4c0a76674fc9040f546ff680586e9259",
+    "testCaseId": "2d84161ec34b9c34af8a3bea3017f29c",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupControllerTest::test_anyone_authenticated_can_list_event_groups",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_anyone_authenticated_can_list_event_groups"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

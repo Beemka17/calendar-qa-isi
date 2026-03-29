@@ -1,0 +1,43 @@
+{
+    "uuid": "be1cbf52-9324-46de-a843-ea14896a563a",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_active_user_can_update_own_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753850293,
+    "stop": 1774753850308,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "3c4ded3b2ed9908f619f5e4109fb3d3e",
+    "testCaseId": "71e30d12be914f4a7bc72de2e681995d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_active_user_can_update_own_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_active_user_can_update_own_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

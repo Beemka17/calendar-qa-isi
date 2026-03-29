@@ -1,0 +1,43 @@
+{
+    "uuid": "f86437e1-2b11-4ce8-8db2-d8e7c4762abc",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_owner_can_delete_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774757180057,
+    "stop": 1774757180085,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "0e02deeb7556fe1ade18a8d1821aa75f",
+    "testCaseId": "c3a9ce75cbedc756efa9d70fa6d061e3",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_owner_can_delete_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_owner_can_delete_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

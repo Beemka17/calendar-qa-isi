@@ -1,0 +1,43 @@
+{
+    "uuid": "696d3b64-cf30-4b49-bb5a-f1f156b869e2",
+    "name": "Tests\\Unit\\Middleware\\TrustHostsTest::test_hosts_returns_application_subdomain_pattern",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756539808,
+    "stop": 1774756539817,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "60c628150c948659556c643d50f19f05",
+    "testCaseId": "3e8c24652e09c122846eb44e721e8639",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Middleware\\TrustHostsTest::test_hosts_returns_application_subdomain_pattern",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Middleware\\TrustHostsTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_hosts_returns_application_subdomain_pattern"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

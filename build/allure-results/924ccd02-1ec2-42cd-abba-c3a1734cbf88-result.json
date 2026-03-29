@@ -1,0 +1,43 @@
+{
+    "uuid": "924ccd02-1ec2-42cd-abba-c3a1734cbf88",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_inactive_admin_cannot_update_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753163617,
+    "stop": 1774753163659,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "6318cb1a5687b220fdee7347178c04a9",
+    "testCaseId": "757883f450f497fb4c03123deed84dea",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_inactive_admin_cannot_update_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_inactive_admin_cannot_update_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

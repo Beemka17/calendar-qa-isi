@@ -1,0 +1,43 @@
+{
+    "uuid": "5996b85e-8379-4b2a-a704-560ee9397407",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_inactive_user_cannot_store_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756766659,
+    "stop": 1774756766688,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "426b63ba4c966e1bad1d97455dad380c",
+    "testCaseId": "7866d1248616bc0b1d10b9e374cca4e5",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_inactive_user_cannot_store_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_inactive_user_cannot_store_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

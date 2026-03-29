@@ -1,0 +1,43 @@
+{
+    "uuid": "89d4e5ee-dc64-48dc-9c67-8875351da443",
+    "name": "Tests\\Feature\\ProfileTest::test_correct_password_must_be_provided_to_delete_account",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756778182,
+    "stop": 1774756778208,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "c6330e32e5dc83e1069262e5e60919f6",
+    "testCaseId": "daffe0d8d8587def59b3d9b90ef45f35",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_correct_password_must_be_provided_to_delete_account",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_correct_password_must_be_provided_to_delete_account"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "091489ed-6d2b-483d-ae58-3d67c8ae1535",
+    "name": "Tests\\Unit\\Http\\Controllers\\EventFeedControllerTest::test_index_returns_events_in_correct_format",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756674198,
+    "stop": 1774756674237,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Class \"App\\Http\\Controllers\\Event\" not found",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "0b4651cd34dc26b341724531dc9bd1ee",
+    "testCaseId": "d5322b191d09f3e4fc87438fa23e1080",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Http\\Controllers\\EventFeedControllerTest::test_index_returns_events_in_correct_format",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Http\\Controllers\\EventFeedControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_index_returns_events_in_correct_format"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

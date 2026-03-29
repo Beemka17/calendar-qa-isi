@@ -1,0 +1,43 @@
+{
+    "uuid": "b9df95e3-0db8-4009-9e02-1fbb2156169f",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_unauthenticated_user_cannot_access_events",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756528689,
+    "stop": 1774756528857,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "061a87ec2ab43b542bef14862e05d8b4",
+    "testCaseId": "d6634b2fbe8a17452b130acaba9ab446",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_unauthenticated_user_cannot_access_events",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_unauthenticated_user_cannot_access_events"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

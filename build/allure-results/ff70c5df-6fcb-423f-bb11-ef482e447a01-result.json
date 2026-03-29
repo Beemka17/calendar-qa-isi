@@ -1,0 +1,43 @@
+{
+    "uuid": "ff70c5df-6fcb-423f-bb11-ef482e447a01",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_owner_can_update_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756529706,
+    "stop": 1774756529786,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "115e5d9ca551e4bc4a7fb464395893e8",
+    "testCaseId": "bc4df9cd4908f33ead5f3f56778e859d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_owner_can_update_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_owner_can_update_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

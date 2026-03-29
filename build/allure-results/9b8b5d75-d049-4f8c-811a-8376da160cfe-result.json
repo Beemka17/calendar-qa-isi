@@ -1,0 +1,43 @@
+{
+    "uuid": "9b8b5d75-d049-4f8c-811a-8376da160cfe",
+    "name": "Tests\\Feature\\ProfileTest::test_profile_page_is_displayed",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756777679,
+    "stop": 1774756777746,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "e7ad1d0d60a4334495445dae860b8a8a",
+    "testCaseId": "a063a2716f231fd4a3ef6f09a5e50f0b",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ProfileTest::test_profile_page_is_displayed",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ProfileTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_profile_page_is_displayed"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

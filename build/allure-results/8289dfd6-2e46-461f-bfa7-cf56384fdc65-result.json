@@ -1,0 +1,43 @@
+{
+    "uuid": "8289dfd6-2e46-461f-bfa7-cf56384fdc65",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_aggregation_with_large_number_of_leave_events",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753156305,
+    "stop": 1774753157691,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "1256e7b7a4b01234f16eb989f8225118",
+    "testCaseId": "c43f935467306ad7b8f4f05a28e6905f",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_aggregation_with_large_number_of_leave_events",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_aggregation_with_large_number_of_leave_events"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "ee093d05-2f12-4788-aebd-3825dff79b8c",
+    "name": "Tests\\Unit\\Events\\CalendarChangedTest::test_broadcasts_on_calendar_channel",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753842070,
+    "stop": 1774753842087,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "647beec9d7adda6c402532135f060902",
+    "testCaseId": "03fd7da156acc97ad871399c3de94be4",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Events\\CalendarChangedTest::test_broadcasts_on_calendar_channel",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Events\\CalendarChangedTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_broadcasts_on_calendar_channel"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

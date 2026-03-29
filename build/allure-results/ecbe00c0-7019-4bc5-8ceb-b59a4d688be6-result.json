@@ -1,0 +1,43 @@
+{
+    "uuid": "ecbe00c0-7019-4bc5-8ceb-b59a4d688be6",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_admin_can_update_any_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756776929,
+    "stop": 1774756776956,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "01e3baa6c5f55812190af2de0f8683a8",
+    "testCaseId": "269912e62d78591aead12f102d2b7055",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_admin_can_update_any_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_admin_can_update_any_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

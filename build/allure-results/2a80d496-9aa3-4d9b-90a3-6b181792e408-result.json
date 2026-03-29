@@ -1,0 +1,43 @@
+{
+    "uuid": "2a80d496-9aa3-4d9b-90a3-6b181792e408",
+    "name": "Tests\\Feature\\Auth\\LoginRequestTest::test_too_many_failed_logins_triggers_lockout",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756772475,
+    "stop": 1774756773848,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "5552b32bfd54477febf34c71a30617db",
+    "testCaseId": "3cb9ffb45d6254185e8eca2f7a74e9d1",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\LoginRequestTest::test_too_many_failed_logins_triggers_lockout",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\LoginRequestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_too_many_failed_logins_triggers_lockout"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "9b0bbed1-5b4b-43e8-a7ba-b0ae17e7381b",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_inactive_user_cannot_update_own_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756540212,
+    "stop": 1774756540234,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "479041384025ba0a0f487b1422cbd9f6",
+    "testCaseId": "40cca4e609d01961d9fa076a2089a8ad",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_inactive_user_cannot_update_own_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_inactive_user_cannot_update_own_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "0d60edfe-5915-4f7a-a77b-14e6e06d5830",
+    "name": "Tests\\Unit\\Models\\EventModelTest::test_event_belongs_to_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755323082,
+    "stop": 1774755323156,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "37838c528e48de9847a46b20367096d1",
+    "testCaseId": "9d3040e16cfccaab170a7bbdbbc7638b",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Models\\EventModelTest::test_event_belongs_to_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Models\\EventModelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_belongs_to_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

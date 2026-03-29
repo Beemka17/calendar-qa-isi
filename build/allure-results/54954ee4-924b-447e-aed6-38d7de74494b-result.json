@@ -1,0 +1,43 @@
+{
+    "uuid": "54954ee4-924b-447e-aed6-38d7de74494b",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_non_owner_cannot_update_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753153515,
+    "stop": 1774753153592,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Expected response status code [403] but received 405.\nFailed asserting that 405 is identical to 403.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "d12fbddcffb3b3e7fe0e759c768afd9e",
+    "testCaseId": "1f901d339693711bc1d64a992cf5d6c6",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_non_owner_cannot_update_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_non_owner_cannot_update_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

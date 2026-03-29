@@ -1,0 +1,43 @@
+{
+    "uuid": "3edc7f96-a372-40b5-a85d-bde7deffe9de",
+    "name": "Tests\\Feature\\Api\\TeamControllerTest::test_authenticated_user_can_list_teams",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756771078,
+    "stop": 1774756771117,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "8a81b1e2ea58e8ff818c10e7ec53231d",
+    "testCaseId": "5218c68e79f015a330271c544660ee9d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\TeamControllerTest::test_authenticated_user_can_list_teams",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\TeamControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_authenticated_user_can_list_teams"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

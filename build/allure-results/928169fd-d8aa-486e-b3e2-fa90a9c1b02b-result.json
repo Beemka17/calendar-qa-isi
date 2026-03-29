@@ -1,0 +1,43 @@
+{
+    "uuid": "928169fd-d8aa-486e-b3e2-fa90a9c1b02b",
+    "name": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_correct_password_must_be_provided_to_update_password",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755333126,
+    "stop": 1774755333151,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "07bdc3352a9eb3ad8a9e452ae7c7b721",
+    "testCaseId": "90e6c88d891f30f766d446198c2e7680",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_correct_password_must_be_provided_to_update_password",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordUpdateTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_correct_password_must_be_provided_to_update_password"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

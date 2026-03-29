@@ -1,0 +1,43 @@
+{
+    "uuid": "e2df5b93-5cbc-4362-a06b-b8f75d55abcf",
+    "name": "Tests\\Feature\\Api\\EventGroupControllerTest::test_regular_user_cannot_create_event_group",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755326658,
+    "stop": 1774755326681,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "8678a7cc3edd518704d9ea020467edf4",
+    "testCaseId": "5dddebc48087a3d54368c5fc4997f916",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupControllerTest::test_regular_user_cannot_create_event_group",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_regular_user_cannot_create_event_group"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

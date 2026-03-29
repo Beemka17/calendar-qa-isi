@@ -1,0 +1,43 @@
+{
+    "uuid": "63ababf1-bd81-4c26-aceb-383884674036",
+    "name": "Tests\\Feature\\Api\\EventGroupControllerTest::test_admin_cannot_delete_event_group_in_use",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756768807,
+    "stop": 1774756768857,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "42d751af575b5262d3768ca7e3c38230",
+    "testCaseId": "d412d1274d68a8658790d65002b55b2d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventGroupControllerTest::test_admin_cannot_delete_event_group_in_use",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventGroupControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_admin_cannot_delete_event_group_in_use"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

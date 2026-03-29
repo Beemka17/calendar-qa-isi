@@ -1,0 +1,43 @@
+{
+    "uuid": "20e9010b-c424-467d-a395-350d4c8a0010",
+    "name": "Tests\\Feature\\Api\\EventFeedControllerTest::test_event_feed_is_ordered_by_start_at",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755326260,
+    "stop": 1774755326304,
+    "status": "broken",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Undefined array key 0",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "b03d2c71a08f4e49ecc179537d3e2239",
+    "testCaseId": "db28309d9791bd32e2b7a74c821dbd6e",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventFeedControllerTest::test_event_feed_is_ordered_by_start_at",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventFeedControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_feed_is_ordered_by_start_at"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

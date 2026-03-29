@@ -1,0 +1,43 @@
+{
+    "uuid": "98e22399-aff3-48dc-902f-e3888bf04168",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_inactive_user_cannot_update_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756530364,
+    "stop": 1774756530398,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "68fc5ffd054875dabf9eb1c6c0590b94",
+    "testCaseId": "d5c94d6f935545a98fc40317a8444216",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_inactive_user_cannot_update_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_inactive_user_cannot_update_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

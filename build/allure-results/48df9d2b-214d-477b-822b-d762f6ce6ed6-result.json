@@ -1,0 +1,43 @@
+{
+    "uuid": "48df9d2b-214d-477b-822b-d762f6ce6ed6",
+    "name": "Tests\\Feature\\Auth\\LoginRequestTest::test_too_many_failed_logins_triggers_lockout",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756535414,
+    "stop": 1774756536764,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Session missing error: email\nFailed asserting that false is true.\r\n\r\nThe following errors occurred during the last request:\n\nThese credentials do not match our records.\r\n",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "5552b32bfd54477febf34c71a30617db",
+    "testCaseId": "3cb9ffb45d6254185e8eca2f7a74e9d1",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\LoginRequestTest::test_too_many_failed_logins_triggers_lockout",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\LoginRequestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_too_many_failed_logins_triggers_lockout"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

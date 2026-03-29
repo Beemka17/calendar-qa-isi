@@ -1,0 +1,43 @@
+{
+    "uuid": "77ea213d-e045-40ef-ab71-4bdc82f36577",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_authenticated_user_can_get_events",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756766161,
+    "stop": 1774756766220,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "0a2243b710f69b2c75f6b5df8fefcf44",
+    "testCaseId": "ed955273b199fc0fd5b894901988bfe4",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_authenticated_user_can_get_events",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_authenticated_user_can_get_events"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

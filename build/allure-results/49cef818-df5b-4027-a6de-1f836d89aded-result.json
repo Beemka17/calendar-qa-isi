@@ -1,0 +1,43 @@
+{
+    "uuid": "49cef818-df5b-4027-a6de-1f836d89aded",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_event_index_filters_by_date_range",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756766293,
+    "stop": 1774756766339,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "bac9228c10de2e30de53d5ff8022d717",
+    "testCaseId": "7c9f6ceb260b54c5d2f87f0a0e432ac2",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_event_index_filters_by_date_range",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_event_index_filters_by_date_range"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

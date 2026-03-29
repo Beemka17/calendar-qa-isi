@@ -1,0 +1,43 @@
+{
+    "uuid": "3abb818e-4179-451e-817b-88eb94ce7d4c",
+    "name": "Tests\\Feature\\Policies\\EventPolicyTest::test_user_cannot_delete_others_event",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755334614,
+    "stop": 1774755334639,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "b224f781347a40247d03a4c6eff9dd1f",
+    "testCaseId": "e00966cec30dcc05b295dd511b340d57",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Policies\\EventPolicyTest::test_user_cannot_delete_others_event",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Policies\\EventPolicyTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_user_cannot_delete_others_event"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

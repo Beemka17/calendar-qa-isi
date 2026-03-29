@@ -1,0 +1,43 @@
+{
+    "uuid": "15730154-31da-466e-b93f-239f400ebdc5",
+    "name": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_link_screen_can_be_rendered",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753113114,
+    "stop": 1774753113137,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "2f845495cf8193509cb52ccbdaf55e96",
+    "testCaseId": "ef3cf4bf53f84a27ba26177fb7db7a1d",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordResetTest::test_reset_password_link_screen_can_be_rendered",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordResetTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_reset_password_link_screen_can_be_rendered"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

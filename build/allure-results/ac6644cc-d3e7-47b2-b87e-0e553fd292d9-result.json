@@ -1,0 +1,43 @@
+{
+    "uuid": "ac6644cc-d3e7-47b2-b87e-0e553fd292d9",
+    "name": "Tests\\Feature\\Api\\TeamControllerTest::test_team_list_only_returns_id_and_name",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756771180,
+    "stop": 1774756771204,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "05a1f9b530da4d10a7d18b8dc878609c",
+    "testCaseId": "33a388117c8b51a8ffc66ca578cb13df",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\TeamControllerTest::test_team_list_only_returns_id_and_name",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\TeamControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_team_list_only_returns_id_and_name"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

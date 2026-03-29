@@ -1,0 +1,43 @@
+{
+    "uuid": "50ac1e01-343c-43eb-ad96-0cb7f62edda3",
+    "name": "Tests\\Feature\\ExampleTest::test_the_application_returns_a_successful_response",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774753114992,
+    "stop": 1774753115067,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "12fcc341f0e27acb1e848f66e53297d6",
+    "testCaseId": "a50145b9500608f5ed3e817809ec660b",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\ExampleTest::test_the_application_returns_a_successful_response",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\ExampleTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_the_application_returns_a_successful_response"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

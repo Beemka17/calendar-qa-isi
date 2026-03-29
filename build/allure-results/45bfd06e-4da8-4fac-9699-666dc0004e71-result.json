@@ -1,0 +1,43 @@
+{
+    "uuid": "45bfd06e-4da8-4fac-9699-666dc0004e71",
+    "name": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_password_can_be_updated",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755333001,
+    "stop": 1774755333046,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "9fd78e29f3982cb3d9e7f9983adf5cd8",
+    "testCaseId": "c0db283042ca14e679deea4134abb1bb",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\PasswordUpdateTest::test_password_can_be_updated",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\PasswordUpdateTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_password_can_be_updated"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

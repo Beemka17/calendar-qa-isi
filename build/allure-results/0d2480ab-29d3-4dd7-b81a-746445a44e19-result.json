@@ -1,0 +1,43 @@
+{
+    "uuid": "0d2480ab-29d3-4dd7-b81a-746445a44e19",
+    "name": "Tests\\Unit\\Console\\KernelTest::test_schedule_runs_without_errors",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756763511,
+    "stop": 1774756763704,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "961433be9deafea442e2cc8294e58364",
+    "testCaseId": "ddd00b47f4cd3d89a292b181c41edc69",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Console\\KernelTest::test_schedule_runs_without_errors",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Console\\KernelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_schedule_runs_without_errors"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

@@ -1,0 +1,43 @@
+{
+    "uuid": "af861811-a2f7-4379-b453-b17ae529b79b",
+    "name": "Tests\\Feature\\Auth\\LoginRequestTest::test_ensure_is_not_rate_limited_throws_when_locked",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756536842,
+    "stop": 1774756536863,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "8c03e71e6c66d123bf4a8c561c5f2b14",
+    "testCaseId": "19cba65d55cb276011ead05798b705c1",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\LoginRequestTest::test_ensure_is_not_rate_limited_throws_when_locked",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\LoginRequestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_ensure_is_not_rate_limited_throws_when_locked"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

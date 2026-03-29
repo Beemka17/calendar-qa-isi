@@ -32,6 +32,7 @@ class EventFactory extends Factory
             'description' => $this->faker->paragraph(),
             'leave_type' => $this->faker->randomElement(['full', 'half', null]),
             'created_by' => User::factory(), // Otomatis buat user pembuat
+            'updated_by' => null,
         ];
     }
 }

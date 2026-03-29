@@ -1,0 +1,43 @@
+{
+    "uuid": "ff3cb356-1fde-42f8-88c8-f73ed05cc013",
+    "name": "Tests\\Feature\\Api\\FinalRiskTest::test_guest_cannot_access_any_api_endpoints",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756770848,
+    "stop": 1774756770872,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "459c1b1a952296fc710f42363bf0c125",
+    "testCaseId": "170a81478c8c414eaef92ef4ba47e299",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\FinalRiskTest::test_guest_cannot_access_any_api_endpoints",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\FinalRiskTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_guest_cannot_access_any_api_endpoints"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

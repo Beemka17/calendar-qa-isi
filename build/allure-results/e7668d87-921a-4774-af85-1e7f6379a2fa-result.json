@@ -1,0 +1,43 @@
+{
+    "uuid": "e7668d87-921a-4774-af85-1e7f6379a2fa",
+    "name": "Tests\\Feature\\Api\\EventControllerTest::test_update_event_fails_with_invalid_leave_type",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756530585,
+    "stop": 1774756530623,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "703342138479d6bca09e81c30ab13a2d",
+    "testCaseId": "08867ad50d8963defac3faa5c62635e7",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Api\\EventControllerTest::test_update_event_fails_with_invalid_leave_type",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Api\\EventControllerTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_update_event_fails_with_invalid_leave_type"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

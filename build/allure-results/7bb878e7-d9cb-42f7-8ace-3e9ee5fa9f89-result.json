@@ -1,0 +1,43 @@
+{
+    "uuid": "7bb878e7-d9cb-42f7-8ace-3e9ee5fa9f89",
+    "name": "Tests\\Feature\\Auth\\LoginRequestTest::test_failed_login_triggers_rate_limiter_hit",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774755330563,
+    "stop": 1774755330806,
+    "status": "failed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": "Failed asserting that 0 matches expected 1.",
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "bb46543ef605c5a7dbba6771964d2b64",
+    "testCaseId": "5e26c3e50671c6a1c1ac641a0a70e5d1",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Auth\\LoginRequestTest::test_failed_login_triggers_rate_limiter_hit",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Auth\\LoginRequestTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_failed_login_triggers_rate_limiter_hit"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

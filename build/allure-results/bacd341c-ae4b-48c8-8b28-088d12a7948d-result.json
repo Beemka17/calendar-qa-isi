@@ -1,0 +1,43 @@
+{
+    "uuid": "bacd341c-ae4b-48c8-8b28-088d12a7948d",
+    "name": "Tests\\Unit\\Models\\TeamModelTest::test_team_event_relationship_is_bidirectional",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774757178918,
+    "stop": 1774757178941,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "cb2c738f08504bcdc7489514b9fd2ce2",
+    "testCaseId": "fc3b82ec5dfde79f66ce8a7770b78746",
+    "rerunOf": null,
+    "fullName": "Tests\\Unit\\Models\\TeamModelTest::test_team_event_relationship_is_bidirectional",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Unit\\Models\\TeamModelTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_team_event_relationship_is_bidirectional"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}

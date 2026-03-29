@@ -1,0 +1,43 @@
+{
+    "uuid": "13788ef1-a919-4fd1-9c0b-862c2ba59816",
+    "name": "Tests\\Feature\\Middleware\\AuthMiddlewareTest::test_authenticated_user_redirected_from_login_page",
+    "description": null,
+    "descriptionHtml": null,
+    "start": 1774756683060,
+    "stop": 1774756683084,
+    "status": "passed",
+    "statusDetails": {
+        "known": null,
+        "muted": null,
+        "flaky": null,
+        "message": null,
+        "trace": null
+    },
+    "stage": "finished",
+    "steps": [],
+    "attachments": [],
+    "parameters": [],
+    "historyId": "ed12113c3908a0bcd9e1573107cbd858",
+    "testCaseId": "ff4fedde5fd95634f63df617e6457a7f",
+    "rerunOf": null,
+    "fullName": "Tests\\Feature\\Middleware\\AuthMiddlewareTest::test_authenticated_user_redirected_from_login_page",
+    "labels": [
+        {
+            "name": "testClass",
+            "value": "Tests\\Feature\\Middleware\\AuthMiddlewareTest"
+        },
+        {
+            "name": "testMethod",
+            "value": "test_authenticated_user_redirected_from_login_page"
+        },
+        {
+            "name": "host",
+            "value": "QA0065"
+        },
+        {
+            "name": "thread",
+            "value": null
+        }
+    ],
+    "links": []
+}
